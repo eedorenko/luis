@@ -15,13 +15,13 @@ on:
 
 env:
   # Set the Azure Resource Group name
-  AzureResourceGroup: YOUR_RESOURCE_GROUP_NAME
+  AzureResourceGroup: luis-rg
   # Set the Azure LUIS Authoring Resource name
-  AzureLuisAuthoringResourceName: YOUR_LUIS_AUTHORING_RESOURCE_NAME
+  AzureLuisAuthoringResourceName: LUISDevOpsResource-Authoring-kaizen
   # Set the Azure LUIS Prediction Resource name
-  AzureLuisPredictionResourceName: YOUR_LUIS_PREDICTION_RESOURCE_NAME
+  AzureLuisPredictionResourceName: LUISDevOpsResource-Prediction-kaizen
   # Set the Azure Storage Account name
-  AzureStorageAccountName: yourstorageaccountname
+  AzureStorageAccountName: luisdevopsstoragekaizen
   
   # Set the name of the master LUIS app
   LUIS_MASTER_APP_NAME: LUISDevOps-master
